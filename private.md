@@ -1,6 +1,6 @@
 # Privacy Policy for Buddee Grow Assistant
 
-Effective Date: [Insert Date]
+Effective Date: 09/12/2024
 
 Buddee Grow Assistant is committed to protecting your privacy. This privacy policy outlines how we handle the information you provide when using our app.
 
