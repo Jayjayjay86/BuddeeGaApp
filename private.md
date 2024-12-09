@@ -27,7 +27,7 @@ We may update this privacy policy from time to time. Any changes will be posted 
 
 ## Contact Us
 If you have any questions or concerns about this privacy policy, please contact us at:  
-**Email:** [Your Support Email Address]  
-**Website:** [Your Website Link, if available]
+**Email:** tutor.jj.sullivan@gmail.com  
+**Website:** https://github.com/Jayjayjay86/BuddeeGaApp
 
 Thank you for using Buddee Grow Assistant!
