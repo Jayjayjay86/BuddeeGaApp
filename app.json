@@ -1,0 +1,9 @@
+{
+  "name": "BudDee",
+  "displayName": "BudDee",
+"react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-6479857844002504~9159336619",
+    "ios_app_id": "ca-app-pub-6479857844002504~9159336619"
+  }
+
+}
