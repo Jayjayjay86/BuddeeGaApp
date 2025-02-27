@@ -51,12 +51,12 @@ BuddeeGaApp is built using the following technologies and libraries:
 
 ## Screenshots
 
-![Light Mode](screenshots/light_mode.png)  
+![Light Mode](light_mode.png)  
 *BuddeeGaApp in Light Mode*
 
-![Dark Mode](screenshots/dark_mode.png)  
+![Dark Mode](dark_mode.png)  
 *BuddeeGaApp in Dark Mode*
 
-![Language Selection](screenshots/language_selection.png)  
+![Language Selection](language_selection.png)  
 *Multi-language Support*
 
