@@ -1,83 +1,62 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# BuddeeGaApp
 
-# Libraries Used
+**BuddeeGaApp** is a React Native application designed to help indoor gardeners track their plant growth cycles. This project is currently in the testing phase and serves as a demonstration of my coding abilities to date. It showcases my proficiency in React Native, state management, localization, and UI/UX design.
 
-react navigation
+## Overview
 
-# Getting Started
+BuddeeGaApp is a simple yet effective tool for indoor gardeners to track important dates and milestones in their plant growth cycles. It features a clean, user-friendly interface with support for multiple languages, dark/light modes, and various technical integrations.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Key Features
 
-## Step 1: Start the Metro Server
+- **Multi-language Support**: Custom-built locales for English, German, French, Spanish, Hebrew, Hindi, and Italian.
+- **Dark/Light Mode**: Seamless theme switching using React Context for state management.
+- **Date Tracking**: Easily log and view important dates for your plants.
+- **Ad Integration**: Built-in support for Google Mobile Ads.
+- **In-App Purchases**: Integrated with `react-native-iap` for potential premium features.
+- **File System Access**: Utilizes `react-native-fs` for local data storage and management.
+- **Progress Tracking**: Visualize growth progress with `react-native-progress`.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Technical Stack
 
-To start Metro, run the following command from the _root_ of your React Native project:
+BuddeeGaApp is built using the following technologies and libraries:
 
-```bash
-# using npm
-npm start
+- **Core**: 
+  - React (`18.2.0`)
+  - React Native (`0.74.6`)
+- **Navigation**:
+  - `@react-navigation/native` (`^7.0.3`)
+  - `@react-navigation/native-stack` (`^7.0.3`)
+- **State Management**:
+  - React Context for theme and localization management.
+- **Localization**:
+  - Custom-built locales for 7 languages.
+- **UI/UX**:
+  - `react-native-modal-selector` (`^2.1.2`)
+  - `react-native-date-picker` (`^5.0.7`)
+  - `react-native-progress` (`^5.0.1`)
+- **Storage**:
+  - `@react-native-async-storage/async-storage` (`^2.1.0`)
+  - `react-native-fs` (`^2.20.0`)
+- **Utilities**:
+  - `moment` (`^2.30.1`) for date handling.
+  - `react-native-uuid` (`^2.0.3`) for unique ID generation.
+  - `react-native-get-random-values` (`^1.11.0`) for cryptographic randomness.
+- **Ads and Monetization**:
+  - `react-native-google-mobile-ads` (`^14.4.2`)
+  - `react-native-iap` (`^12.15.7`) for in-app purchases.
+- **Miscellaneous**:
+  - `react-native-safe-area-context` (`^4.14.0`)
+  - `react-native-screens` (`^4.1.0`)
+  - `react-native-splash-screen` (`^3.3.0`)
 
-# OR using Yarn
-yarn start
-```
+## Screenshots
 
-## Step 2: Start your Application
+![Light Mode](screenshots/light_mode.png)  
+*BuddeeGaApp in Light Mode*
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+![Dark Mode](screenshots/dark_mode.png)  
+*BuddeeGaApp in Dark Mode*
 
-### For Android
+![Language Selection](screenshots/language_selection.png)  
+*Multi-language Support*
 
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
